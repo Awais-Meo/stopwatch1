@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title></title>
+</head>
+<style>
+    
+    h1 {
+        color: black;
+        display: inline-block;
+        width: 150px;
+        background-color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+</style>
+<body class="body">
+    <div style="margin-top: 20px;">
+        <h1>Stop Watch</h1>
+    </div>
+    <div>
+        <h1  id="min">0</h1>
+        <h1 style="border-top-left-radius: 10px;
+         border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+           border-bottom-left-radius: 10px;"  id="sec">0</h1>
+        <h1 style="border-top-left-radius: 10px;
+         border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+           border-bottom-left-radius: 10px;" id="msec">0</h1>
+    </div>
+    <div>
+        <button style="width: 80px; height: 30px;
+         background-color: blue;
+          color: white; border-bottom-left-radius:10px;
+           border-bottom-right-radius:10px; border-top-left-radius: 10px; border-top-right-radius: 10px;" onclick="start()">Start</button>
+        <button style="width: 80px; height: 30px;
+         background-color: blue;
+          color: white; border-bottom-left-radius:10px;
+           border-bottom-right-radius:10px; border-top-left-radius: 10px; border-top-right-radius: 10px;" onclick="stop()">Stop</button>
+        <button style="width: 80px; height: 30px;
+         background-color: blue;
+          color: white; border-bottom-left-radius:10px;
+           border-bottom-right-radius:10px; border-top-left-radius: 10px; border-top-right-radius: 10px;" onclick="reset()">Reset</button>
+    </div>
+    <div>
+        <h1 style="width: 300px;">Made By Muhammad Awais</h1>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
